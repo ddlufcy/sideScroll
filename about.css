@@ -1,0 +1,40 @@
+#about {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    background-image: linear-gradient(130deg, #111111, #060606);
+    filter: opacity(90%);
+    color: #ffffff;
+
+}
+
+#bioText {
+    /* margin-left: 10.2vw; */
+    line-height: 19pt;
+    font-size: 16pt;
+    font-kerning: normal;
+    font-family: 'Archivo Narrow', sans-serif;
+    overflow-wrap: break-word;
+    line-height: 19pt;
+    font-size: 16pt;
+    font-kerning: normal;
+    font-family: 'Archivo Narrow', sans-serif;
+    overflow-wrap: break-word;
+    text-align: justify;
+    max-width: 75vw;
+    margin-left: 12%;
+    /* margin-top: 5%; */
+}
+.bio{
+    margin: 0;
+}
+
+.profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    filter: opacity(94%);
+    border-radius: 10px;
+}

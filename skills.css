@@ -1,0 +1,11 @@
+#skills {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    /* background-color: rgb(106, 206, 206); */
+    background-image: linear-gradient(50deg, #111111, #060612);
+} 
+#skills h3 {
+    color: #f1f1f1;
+}
