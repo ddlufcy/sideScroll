@@ -71,7 +71,7 @@ h3 {
 
 }
 .banner li {
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 1.3em;
     word-spacing: 2%;
 }
@@ -97,18 +97,20 @@ h3 {
     background-color: rgb(95, 187, 187);
 
 }
+.bio {
+    margin-left: 2.6em;
+}
 
 #bioText {
     /* margin-left: 10.2vw; */
     line-height: 19pt;
     font-size: 16pt;
     font-kerning: normal;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     overflow-wrap: break-word;
     line-height: 19pt;
     font-size: 16pt;
     font-kerning: normal;
-    font-family: 'Archivo Narrow', sans-serif;
     overflow-wrap: break-word;
     text-align: justify;
     max-width: 75vw;
