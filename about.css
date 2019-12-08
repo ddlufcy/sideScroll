@@ -5,8 +5,17 @@
     grid-row-end: 9;
     background-image: linear-gradient(130deg, #111111, #060606);
     filter: opacity(90%);
-    color: #ffffff;
+    color: #EFEFEF;
 
+}
+
+#about section {
+    max-height: 75vh;
+    min-height: 60vh;
+    /* align-self: center;
+    justify-self: center;
+    position: absolute;
+    top: 11%; */
 }
 
 #bioText {
@@ -22,19 +31,28 @@
     font-family: 'Archivo Narrow', sans-serif;
     overflow-wrap: break-word;
     text-align: justify;
-    max-width: 75vw;
+    max-width: 80vw;
     margin-left: 12%;
     /* margin-top: 5%; */
 }
-.bio{
+
+.bio {
     margin: 0;
+}
+
+.profile {
+    position: absolute;
+    right: -193px;
+    width: 100vw;
+    left: 2em;
+    display: inline-block;
+    top: 62%;
+    bottom: 1%;
 }
 
 .profile img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 23%;
+    width: 19%;
     filter: opacity(94%);
     border-radius: 10px;
 }
