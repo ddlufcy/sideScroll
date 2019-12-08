@@ -1,6 +1,7 @@
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     body {
         background-color: rgb(33, 34, 34);
+        overflow-y: hidden;
     }
 
     .topContainer {
@@ -15,9 +16,20 @@
     ol{
         background-color: transparent;
     }
+    #home .nameTitle{
+        font-size: 63px;
+        top: 15vh;
+        left: -7px;
+    }
+    #home {
+        overflow-y: hidden;
+    }
 }
 /* 400px width */
 @media screen and (max-width: 455px) {
+    body {
+        overflow-y: hidden;
+    }
     .topContainer {
         display: flex;
         flex-direction: column;
@@ -27,18 +39,28 @@
     }
     .banner{
         font-size: 1rem;
-        display: flex;
+        display: inline !important;
         justify-content: center;
         padding-left: 1em;
         letter-spacing: 1px !important;
         margin: 1rem ;
+        margin-left: 2rem !important;
         max-width: 30vw;
     }
     .bio{
         font-kerning: normal;
         margin-top: 2rem;
     }
+    .profile{
+        
+    }
     ol{
-        background-color: transparent;
+
+        /* background-color: transparent; */
+    }
+    #home .nameTitle {
+        font-size: 30px;
+        top: 30vh;
+        left: -20px;
     }
 }

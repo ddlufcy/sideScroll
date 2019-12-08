@@ -3,12 +3,24 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 9;
-    background-image: linear-gradient(130deg, #111111, #060606);
+    /* background-image: linear-gradient(130deg, #111111, #060606); */
     filter: opacity(90%);
     color: #EFEFEF;
-
+    background-image: linear-gradient(50deg, #111111, #1d1d41);
+    animation: moveIt 10s ease infinite ;
+    background-size: 400% 400%;
 }
-
+@keyframes moveIt {
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 #about section {
     max-height: 75vh;
     min-height: 60vh;
