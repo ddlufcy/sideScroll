@@ -7,7 +7,13 @@ window.addEventListener('wheel', function(e) {
   else item.scrollLeft -= 100;
 });
 
-// // home squares
-// let squares = document.getElementByClassName('square');
-// let sq = [squares, squares];
+// home squares
+let squares = document.getElementByClassName('square');
+let sq = [squares, squares];
 
+let hr = document.getElementById('homeHr')
+// setTimeout(function(){})
+addHrClass = () => {
+  hr.classList.add('hrAnimations');
+}
+document.addEventListener("DOMContentLoaded", addHrClass);

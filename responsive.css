@@ -24,6 +24,19 @@
     #home {
         overflow-y: hidden;
     }
+    hr{
+        display: none;
+    }
+    @keyframes hrMove{
+        0%{
+            width: 0vw;
+            
+        }
+        100%{
+            width: 70vw;
+        }
+    }
+    
 }
 /* 400px width */
 @media screen and (max-width: 455px) {
@@ -37,7 +50,7 @@
         margin:0;
         padding: 0;
     }
-    .banner{
+    /* .banner{
         font-size: 1rem;
         display: inline !important;
         justify-content: center;
@@ -46,21 +59,36 @@
         margin: 1rem ;
         margin-left: 2rem !important;
         max-width: 30vw;
-    }
+    } */
     .bio{
         font-kerning: normal;
         margin-top: 2rem;
     }
-    .profile{
-        
-    }
-    ol{
-
-        /* background-color: transparent; */
+    /* .profile{
+        position: relative;
+        right: 0;     
+        left: 0;        
+        display: flex !important;       
+        top: 0;        
+        bottom: 0;        
+        padding: 0 !important;
+        justify-content: center;
+        margin-left: 2rem;
+    } */
+    #myPic{
+        display: flex;
+        filter: opacity(94%);
+        border-radius: 10px;
+        padding: 0;
+        min-width: 43%;
+        max-width: 45%;
     }
     #home .nameTitle {
         font-size: 30px;
         top: 30vh;
         left: -20px;
+    }
+    hr{
+    display: none;
     }
 }

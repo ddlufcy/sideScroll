@@ -1,9 +1,9 @@
-#about {
+ #about {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 9;
-    /* background-image: linear-gradient(130deg, #111111, #060606); */
+
     filter: opacity(90%);
     color: #EFEFEF;
     background-image: linear-gradient(50deg, #111111, #1d1d41);
@@ -24,14 +24,10 @@
 #about section {
     max-height: 75vh;
     min-height: 60vh;
-    /* align-self: center;
-    justify-self: center;
-    position: absolute;
-    top: 11%; */
+
 }
 
 #bioText {
-    /* margin-left: 10.2vw; */
     line-height: 19pt;
     font-size: 16pt;
     font-kerning: normal;
@@ -53,13 +49,14 @@
 }
 
 .profile {
-    position: absolute;
+    position: relative;
     right: -193px;
     width: 100vw;
     left: 2em;
     display: inline-block;
-    top: 62%;
+    top: 45%;
     bottom: 1%;
+    padding-bottom: 2em;
 }
 
 .profile img {
@@ -67,4 +64,4 @@
     width: 19%;
     filter: opacity(94%);
     border-radius: 10px;
-}
+}  
